@@ -87,6 +87,9 @@ print(f'Perplexity: {perplexity}')
 
 - **Perplexity**: Measures how well the model predicts the next token in a sequence. Lower perplexity indicates better performance.
 
+## Download the Fine-tuned Model
+
+You can download the fine-tuned model directly from the Colab link provided in the [Google Drive](https://drive.google.com/drive/folders/1-AZnVRsRnHYJhemRHZ0E0xnqgKoHYZf1?usp=sharing). This ensures that you have all the necessary files to run the model locally if preferred.
 
 ## Usage
 
@@ -125,7 +128,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Additional Resources
 
