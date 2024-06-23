@@ -87,6 +87,8 @@ You can interact with the fine-tuned model using `run_agent.py`. This script all
 python run_agent.py
 ```
 
+or you can ** run the run_agent.ipynb ** file in colab or jupyter environment - tested. 
+
 ## Requirements
 
 Install the required packages using `requirements.txt`:
