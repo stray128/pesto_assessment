@@ -3,6 +3,14 @@
 
 This repository contains scripts and instructions for fine-tuning the Llama-2-7b model on the Kaludi Customer-Support-Responses dataset. The goal is to create an automated customer support agent capable of generating relevant and coherent responses to customer queries.
 
+## Quick Start with Google Drive and Colab
+
+For the easiest and quickest way to test the fine-tuned model, please use the provided Google Drive link. This link contains all necessary files and Colab notebooks. Simply run the `run_agent.ipynb` file in Google Colab, which will handle all the required installations and configurations for you.
+
+### [Google Drive Link](https://drive.google.com/drive/folders/1uPIC-Sg3Dp5GbLgZl7zGcYWU-O0Z6VvJ?usp=share_link)
+
+By using the Colab notebook, you can avoid manual installation of dependencies and start testing the fine-tuned model immediately.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,6 +23,7 @@ This repository contains scripts and instructions for fine-tuning the Llama-2-7b
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
+- [Additional Resources](#additional-resources)
 
 ## Introduction
 
@@ -87,7 +96,7 @@ You can interact with the fine-tuned model using `run_agent.py`. This script all
 python run_agent.py
 ```
 
-or you can ** run the run_agent.ipynb ** file in colab or jupyter environment - tested. 
+or you can **run the run_agent.ipynb** file in Colab or Jupyter environment - tested. 
 
 ## Requirements
 
@@ -110,3 +119,14 @@ pip install -r requirements.txt
 
 After fine-tuning, the model achieves a perplexity score of less than 100 on the sample validation set, indicating good performance in generating coherent and relevant responses.
 
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Additional Resources
+
+For more details and to access the trained model and related files, please visit the [Google Drive link](https://drive.google.com/drive/folders/1uPIC-Sg3Dp5GbLgZl7zGcYWU-O0Z6VvJ?usp=share_link).
